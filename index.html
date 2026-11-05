@@ -434,7 +434,7 @@
             { price: 30, name: "一顿丰盛外卖" },
             { price: 60, name: "一张电影票" },
             { price: 90, name: "两杯星巴克" },
-            { price: 150, name: "一件T恤" },
+            { price: 150, name: "一双鞋" },
             { price: 224, name: "今天一整天的工资" }
         ];
 
@@ -536,7 +536,7 @@
                     } else {
                         timeStr = `${Math.ceil(secNeeded / 60)}分钟`;
                     }
-                    el.encouragement.innerHTML = `再过 <b>${timeStr}</b>，${target.name}就能回来了。`;
+                    el.encouragement.innerHTML = `再过 <b>${timeStr}</b>，${target.name}就能到手了！`;
                 } else {
                     el.encouragement.innerHTML = `今日目标已达成！下班后好好犒劳自己吧~`;
                 }
