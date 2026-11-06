@@ -569,11 +569,11 @@
         el.btnClose.addEventListener('click', () => {
             if (isClosing) return;
             isClosing = true;
-            el.btnClose.textContent = "关不掉啦，继续打工吧！";
+            el.btnClose.textContent = "已拿到今日份大结果，继续加油哦！";
             el.btnClose.style.background = "var(--money-color)";
             
             setTimeout(() => {
-                el.btnClose.textContent = "关闭计时器";
+                el.btnClose.textContent = "点击就拿大结果！";
                 el.btnClose.style.background = "var(--text-main)";
                 isClosing = false;
             }, 2000);
