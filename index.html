@@ -367,7 +367,7 @@
                 <span>本月累计</span>
                 <span class="val">¥<span id="month-earned">0.0000</span></span>
             </div>
-            <div class="month-desc">已过的日子按满勤补算，本月只计已赚，不含可预。</div>
+            <div class="month-desc">已过的日子按满勤补算，每天都有钞能力。</div>
         </div>
 
         <!-- 8. 底部数据 -->
@@ -569,7 +569,7 @@
         el.btnClose.addEventListener('click', () => {
             if (isClosing) return;
             isClosing = true;
-            el.btnClose.textContent = "已拿到今日份大结果，继续加油哦！";
+            el.btnClose.textContent = "已拿到大芒果，继续加油哦！";
             el.btnClose.style.background = "var(--money-color)";
             
             setTimeout(() => {
